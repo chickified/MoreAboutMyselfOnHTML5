@@ -1,0 +1,133 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 27, 2015, 11:09:45 AM
+    Author     : Nestor
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    border: 1px;
+    width:1000px;
+    margin: 20px auto;
+    text-align: left;
+}
+header,section,footer,aside,nav,article,hgroup{
+    display: block;
+}
+body{ 
+    text-align: center;
+    background-color: burlywood;
+}
+
+#naviBar{
+    background: #BDB76B;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+#naviBar li{
+    margin: 10px 10px;
+    display: inline-table;
+    list-style: none;
+    padding: 10px;
+    font: bold 16px Comic Sans MS Bold;
+}
+#mainFooter{
+    clear:both;
+    text-align: center;
+    padding:20px;
+    border-top: 2px solid green;
+    font: italic 14px Comic Sans MS Bold;
+}
+article {
+    background: #FFFBCC;
+    border-width: 5px;
+    border-style: ridge;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+article ol{
+    display: inline-block;
+    list-style-position: inside;
+    padding: 10px;
+    font: italic 16px Comic Sans MS Bold;
+    font-weight: bold;
+}
+article ul{
+    display: inline-block;
+    list-style-position: inside;
+    padding: 10px;
+    list-style-type: square;
+}
+.imageCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.textCenter{
+    font: italic 12px Comic Sans MS Bold;
+    margin-left: 35%;
+    margin-right: auto;
+    width: 30em;
+    color: graytext;
+}
+.blCenter{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#images{
+    text-align: center;
+}
+article footer{
+    text-align: right;
+}
+figcaption.popupOne{
+    padding: 10px;
+    background: #e1e1e1;
+    position: fixed;
+    box-shadow: 0 0 15px #A9A9A9;
+    visibility: hidden;
+}
+figure.thumbnailOne:hover figcaption.popupOne{
+    position: fixed;
+    top: 0;
+    left: 0;
+    visibility: visible;
+}
+figcaption.popupTwo{
+    padding: 10px;
+    background: #e1e1e1;
+    position: fixed;
+    box-shadow: 0 0 15px #A9A9A9;
+    visibility: hidden;
+}
+figure.thumbnailTwo:hover figcaption.popupTwo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    visibility: visible;
+}
+figcaption.popupThree{
+    padding: 10px;
+    background: #e1e1e1;
+    position: fixed;
+    box-shadow: 0 0 15px #A9A9A9;
+    visibility: hidden;
+}
+figure.thumbnailThree:hover figcaption.popupThree{
+    position: fixed;
+    top: 0;
+    left: 0;
+    visibility: visible;
+}
+article figure{
+    display: inline;
+}
